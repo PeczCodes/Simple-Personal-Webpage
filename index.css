@@ -239,7 +239,7 @@ footer {
     bottom: 0;
     display: flex;
     gap: .5rem;
-    justify-contentg: center;
+    justify-content: center;
     align-items: center;
     filter: brightness(70%);
     width: 100%;
