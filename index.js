@@ -9,3 +9,7 @@ hamburger.addEventListener("click", (e) => {
 	hamburgerNav.classList.toggle("active");
 	hamburgerDiv.forEach(div => div.classList.toggle("active"));
 });
+
+if (hamburgerNav.classList.contains('active')) {
+	document.body.style.overflow = 'hidden';
+}
