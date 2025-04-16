@@ -45,7 +45,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2rem 1rem;
 }
 .logo {
     font-weight: bold;
@@ -164,6 +164,10 @@ footer {
 
 @media (min-width: 1024px) {
 
+    header {
+        padding: 2rem 5rem  ;
+    }
+
     .hero {
         padding: 0 10rem;
     }
@@ -181,7 +185,7 @@ footer {
     .images img:nth-child(2){
         max-width: 37rem;
         position: absolute;
-        top: -5rem;
+        top: -6rem;
         left: 55%;
         transform: translateX(-45%);
         z-index: 1;
