@@ -120,7 +120,7 @@ nav a:hover::after {
     width: 100%;
     z-index: 10;
     background: var(--background);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
     transition: transform 0.3s ease-in-out;
 }
@@ -128,8 +128,6 @@ nav a:hover::after {
 .hamburger-menu.active {
     transform: translateX(0);
 }
-
-
 
 .hamburger-nav {
     display: grid;
@@ -221,10 +219,11 @@ nav a:hover::after {
             var(--background) 5%,
             var(--background) 100%
     );
-    padding-top: 1rem;
-
+    padding: 1rem 0;
 
 }
+
+
 .stats {
     font-size: 2rem;
     font-weight: bold;
@@ -292,5 +291,10 @@ footer {
     }
     .contact {
         font-size: calc(1.5rem);
+    }
+}
+@media (max-height: 430px) {
+    .stats-container {
+        padding: 1rem 0 10rem
     }
 }
